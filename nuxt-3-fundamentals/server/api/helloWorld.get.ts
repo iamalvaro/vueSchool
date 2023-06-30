@@ -9,6 +9,6 @@ export default defineEventHandler((event) => {
     //https://www.jsdocs.io/package/h3#package-index-functions
     //https://nitro.unjs.io/
     //https://nuxt.com/docs/guide/directory-structure/server
-    message: "Hello GET"
+    message: "Hello Mama I'm in GET"
   }
 })
