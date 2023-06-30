@@ -2,10 +2,10 @@
 const route = useRoute();
 //useAsyncData + fetch has shorthand method called useFetch(), the key seems to have no apparent use with this method either
 const { data, error } = await useFetch(
-  `http://www.omdbapi.com/?apikey=8743ad18&i=${route.params.id}`,
+  `https://www.omdbapi.com/?apikey=8743ad18&i=${route.params.id}`,
   {
     pick: ["Plot", "Title", "Error", "Poster"],
-    key: `http://www.omdbapi.com/?apikey=8743ad18&i=${route.params.id}`,
+    key: `https://www.omdbapi.com/?apikey=8743ad18&i=${route.params.id}`,
   }
 );
 if (error.value) {
